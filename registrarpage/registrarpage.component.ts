@@ -21,4 +21,6 @@ export class RegistrarpageComponent {
   collapsed = signal(false)
  
   sidenavWidth = computed(() => this.collapsed() ? '65px' : '250px');
+
+  menunavWidth = computed(() => this.collapsed() ? '65px' : '450px');
 }
